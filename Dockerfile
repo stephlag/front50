@@ -3,6 +3,7 @@ FROM java:8
 MAINTAINER delivery-engineering@netflix.com
 
 ENV REDIS_HOST redis
+ENV REDIS_PORT 6379
 
 COPY . workdir/
 
